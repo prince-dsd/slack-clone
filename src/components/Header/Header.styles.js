@@ -15,6 +15,7 @@ export const HeaderWrapper = styled.div`
 export const HeaderLeft = styled.div`
   flex: 0.3;
   display: flex;
+
   align-items: center;
   margin-left: 20px;
 `;
@@ -43,7 +44,10 @@ export const StyledSearch = styled(SearchIcon)`
   margin-left: auto;
   margin-right: 30px;
 `;
-export const StyledAccessTime = styled(AccessTimeIcon)``;
+export const StyledAccessTime = styled(AccessTimeIcon)`
+  margin-left: auto;
+  margin-right: 20px;
+`;
 export const StyledHelpOutline = styled(HelopOutlineIcon)`
   margin-left: auto;
   margin-right: 20px;
